@@ -1,0 +1,36 @@
+---
+layout: landing
+---
+
+import { HomePage } from "vocs/components";
+import { Sponsors } from "vocs/components";
+
+<HomePage.Root>
+  <img
+    src="http://pod.brood.beer/STEINS_LOGO_BLACK.svg"
+    width="200px"
+    height="200px"
+  />
+
+<h2>Post Yer Ale</h2>
+
+<h3>What is this?</h3>
+<p>This is a chunk of content</p>
+<h3>Norms</h3>
+<p>This is a chunk of content</p>
+<HomePage.Button href="https://warpcast.com/~/channel/post-yer-ale">
+  Post Yer Ale Channel
+</HomePage.Button>
+<HomePage.Buttons>
+  <HomePage.Button href="https://brood.beer">Brood.beer</HomePage.Button>
+  <HomePage.Button href="https://pod.brood.beer">
+    Proof of Drink
+  </HomePage.Button>
+</HomePage.Buttons>
+
+{" "}
+<HomePage.Button href="/getting-started">Docs</HomePage.Button>
+<img src="/images/castle-ai.png" width="400px" />
+
+  <Sponsors />
+</HomePage.Root>

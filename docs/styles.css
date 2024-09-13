@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Revue;
+  src: url("/fonts/revue.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body {
+  background-color: #272b23;
+} */
+/* 
+.vocs_Logo {
+  width: 6rem;
+} */
+
+/* img.vocs_Logo {
+  width: 6rem;
+} */
+
+h2 {
+  font-family: Revue;
+  font-size: 3rem;
+  font-weight: 700;
+}
