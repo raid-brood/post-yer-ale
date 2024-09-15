@@ -40,3 +40,23 @@ h3 {
   outline: none;
   border: none;
 }
+
+.image-container {
+  display: flex;
+  gap: 20px;
+}
+
+.image-container img {
+  width: 200px;
+  height: auto;
+}
+
+.image-container-large {
+  display: flex;
+  padding-top: 20px;
+}
+
+.image-container-large img {
+  width: 400px;
+  height: auto;
+}

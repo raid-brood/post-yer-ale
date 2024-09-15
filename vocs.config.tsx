@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'Post Yer Ale',
   logoUrl: '/images/steins.svg',
   theme: {
-    accentColor: '#f25480',
+    accentColor: '#6DEEC0',
     variables: {
       color: {
         background: {
