@@ -1,11 +1,12 @@
 import { defineConfig } from 'vocs';
 
 export default defineConfig({
-  ogImageUrl:
-    'https://vocs.dev/api/og?logo=%logo&title=%title&description=%description',
   title: 'Post Yer Ale',
   logoUrl: '/images/steins.svg',
   description: 'Channel to cast images of your finest brews',
+  ogImageUrl: {
+    '/': '/images/preview.png',
+  },
   theme: {
     accentColor: '#6DEEC0',
     variables: {
